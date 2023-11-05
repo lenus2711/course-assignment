@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <div class="menu-button">
+                <a href="Menu.html" class="menu-link">
+                    <div class="menu-content">
+                        <img src="images/menu.svg" alt="Logo" class="menu-icon">
+                        <span class="menu-text">Menu</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+          <test>
+            <li><div class="image-container img">
+                    <img src="images/RainyDays_Logo.png" alt="Logo">
+                </div>
+            </li>
+          </test>        
+        <div class="cart-button">
+            <div class="cart-button img">
+                <a href="Shop.html">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_282_1855)">
+                    <path d="M13.75 11.25H16.25V7.5H20V5H16.25V1.25H13.75V5H10V7.5H13.75V11.25ZM8.75 22.5C7.375 22.5 6.2625 23.625 6.2625 25C6.2625 26.375 7.375 27.5 8.75 27.5C10.125 27.5 11.25 26.375 11.25 25C11.25 23.625 10.125 22.5 8.75 22.5ZM21.25 22.5C19.875 22.5 18.7625 23.625 18.7625 25C18.7625 26.375 19.875 27.5 21.25 27.5C22.625 27.5 23.75 26.375 23.75 25C23.75 23.625 22.625 22.5 21.25 22.5ZM8.9625 18.4375L9 18.2875L10.125 16.25H19.4375C20.375 16.25 21.2 15.7375 21.625 14.9625L26.45 6.2L24.275 5H24.2625L22.8875 7.5L19.4375 13.75H10.6625L10.5 13.4125L7.7 7.5L6.5125 5L5.3375 2.5H1.25V5H3.75L8.25 14.4875L6.5625 17.55C6.3625 17.9 6.25 18.3125 6.25 18.75C6.25 20.125 7.375 21.25 8.75 21.25H23.75V18.75H9.275C9.1125 18.75 8.9625 18.6125 8.9625 18.4375Z" fill="black"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_282_1855">
+                    <rect width="30" height="30" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            </a>
+            </div>
+        </div>
+</header>
+    <div class="banner"> 
+        <div class="left">
+            <h1>Contact Information</h1>
+            <p> 0800 990 454</p>
+            <p> rainydays@rain.com</p>
+            <p> 123 Regngata, 0026 Oslo</p>
+        </div>
+        <div class="contactform">
+            <p style="font-size: 36px; font-weight: bold; text-align: center;">Contactform</p>
+            <form action="process_form.php" method="POST">
+                <p>
+                    <label for="name">Name.....</label>:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email.....:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+               <p>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+               </p> 
+               <p>
+                <input type="submit" value="Submit">
+               </p> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>

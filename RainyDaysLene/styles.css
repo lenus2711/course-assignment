@@ -1,0 +1,350 @@
+/* styles.css */
+
+header {
+    color: black; /* Set text color */
+    display: flex; /* Use flexbox to control layout */
+    align-items: center; /* Align items to the top */
+    padding: 16px; /* Add padding for spacing */
+    background-color:white;
+    max-height: 50px;
+}
+
+test {
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    max-height: 100px; /* Set a fixed maximum height for the logo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+/* Styles the logo */
+.image-container img {
+    width: auto; /* Ensure the image is not stretched */
+    max-width: 30%; /* Set the maximum height as needed */
+    display: block;
+}
+
+/* Style the h1 element */
+h1 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style the about us element */
+
+.banner {
+    background-color: white;
+    color: black; /* Set text color */
+    display: flex; /* Use flexbox to control layout */
+    align-items: left; /* Align items to the top */
+    padding: 16px; /* Add padding for spacing */
+    height: 250px;
+}
+
+.left {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 200px; /* Align to the top */
+    left: 10px; /* Align to the right */
+    text-align: left;
+    max-width: 300px;
+}
+
+.right {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 200px; /* Align to the top */
+    right: 100px; /* Align to the right */
+    max-width: 500px;
+}
+
+.walking-container img {
+    width: auto; /* Ensure the image is not stretched */
+    max-height: 250px; /* Set the maximum height as needed */
+}
+
+/* Style navigation links */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+/* Style the back link */
+a.back-link {
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 50px;
+
+}
+
+/* Styles the shopping cart button */
+.cart-button {
+    position: absolute;
+    top: 10px; /* Align to the top */
+    right: 10px; /* Align to the right */
+}
+
+.cart-button img {
+    width: auto;
+    max-width: 300%;
+    display: block;
+    margin-right: 10px;
+}
+
+/* Styles the menu button content */
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    text-decoration:noen;
+}
+
+.menu-button {
+    position: absolute;
+    top: 10px; /* Align to the top */
+    left: 10px; /* Align to the right */
+    text-align: center;
+}
+
+.menu-button img {
+    width: auto;
+    max-width: 50%;
+    display: block;
+    margin-left: 10px;
+}
+
+/* Styles footer section */
+
+footer {
+    background-color:white;
+    color: black; /* Set text color */
+    display: flex; /* Use flexbox to control layout */
+    align-items: left; /* Align items to the top */
+    padding: 16px; /* Add padding for spacing */
+    height: 200px;
+}
+
+.pushing-footer {
+    text-align: left;
+    font-size: 24px;
+    color: #333;
+    margin-left: 400px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    margin-bottom: 5px;
+}
+
+.Comfort_Zone {
+    text-align: center;
+    font-size:48px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    margin-left: 30px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.products {
+    color: black; /* Set text color */
+    display: flex; /* Use flexbox to control layout */
+    align-items: center; /* Align items to the top */
+    justify-content: center;
+    padding:30px;
+    background-color:white;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.products img {
+    width: auto; /* Ensure the image is not stretched */
+    max-height: 150px; /* Set the maximum height as needed */
+    background-color: white;
+    max-width: 100%;
+}
+
+.productinfo {
+    margin-top: 200px;
+    font-size: 10px;
+    line-height: 1;
+    color: black; /* Set text color */
+    display: flex; /* Use flexbox to control layout */
+    align-items: center; /* Align items to the top */
+    justify-content: top;
+    padding:50px;
+    background-color: white;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.products_addtocart {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077FF;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.picture_home {
+    max-width: 1000px; /* Set the maximum height as needed */
+    max-height: 250px;
+    display: inline-flex;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.picture_shop {
+    width: 200px; /* Ensure the image is not stretched */
+    max-width: 500px; /* Set the maximum height as needed */
+    display: block;
+    height: auto;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.picture_shop img {
+    width: 200px; /* Set the desired width */
+    height: auto; /* Allow the image's height to adjust proportionally */
+    background-color: white;
+}
+
+.picture_woman {
+    max-width: 300px; /* Set the maximum height as needed */
+    max-height: 400px;
+    margin-left: 37px;
+}
+
+.center {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 100px; /* Align to the top */
+    left: 500px; /* Align to the right */
+    text-align: center;
+    max-width: 300px;
+    font-size: 24px;
+}
+
+.picture_man {
+    max-width: 300px; /* Set the maximum height as needed */
+    max-height: 400px;
+    margin-right: 0px;
+}
+
+.banner_home {
+    background-color: white;
+    color: black; /* Set text color */
+    display: flex; /* Use flexbox to control layout */
+    align-items: left; /* Align items to the top */
+    height: 250px;
+}
+
+.explore {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 400px; /* Align to the top */
+    right: 150px; /* Align to the right */
+    max-width: 500px;
+}
+
+.news {
+    list-style-type: none;
+    padding: 100;
+    position: absolute;
+    top: 400px; /* Align to the top */
+    left: 50px; /* Align to the right */
+    max-width: 500px;
+}
+
+.center_shop {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 100px; /* Align to the top */
+    left: 500px; /* Align to the right */
+    text-align: left;
+    max-width: 300px;
+    font-size: 24px;
+}
+
+.news_text {
+    list-style-type: none;
+    padding: 100;
+    position: absolute;
+    top: 400px; /* Align to the top */
+    left: 50px; /* Align to the right */
+    max-width: 500px;
+}
+
+.contactform {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 200px; /* Align to the top */
+    left: 500px; /* Align to the right */
+    text-align: left;
+    max-width: 500px;
+    width: 500px;
+    font-size: 24px;
+    background-color: lightgray;
+}
+
+.logofooter {
+    list-style-type: none;
+    padding: 0;
+    position: flex;
+    top: 10px; /* Align to the top */
+    right: 10px; /* Align to the right */
+    max-width: 50px;
+}
+
+.bannerlogocontact {
+    background-color:red;
+    color: black; /* Set text color */
+    display: flex; /* Use flexbox to control layout */
+    align-items: right; /* Align items to the top */
+    padding: 16px; /* Add padding for spacing */
+    height: 250px;
+}
+
+.picture_logocontact {
+    max-width: 30%; /* Set the maximum height as needed */
+    max-height: 30%;
+    margin-right: 10px;
+}
+
+.bannershop {
+    background-color: lightgray;
+    color: black; /* Set text color */
+    display: flex; /* Use flexbox to control layout */
+    align-items: left; /* Align items to the top */
+    padding: 16px; /* Add padding for spacing */
+    height: 400px;
+    width: 800px;
+}
+
+
